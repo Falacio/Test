@@ -18,4 +18,4 @@ Run with powershell.
 For personal use only.
 Falacio 2018.
 
-BTC adress: 3LKW1rbeEY6iprYx49hfp8HaHKvgsh5TpU
+BTC address: 3LKW1rbeEY6iprYx49hfp8HaHKvgsh5TpU
