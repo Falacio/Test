@@ -35,11 +35,11 @@ $Pool_List =
 		Authless = $true
 		Regions = $false
 		ApiUrl = "http://hashfaster.com/api/status"
-        CoinsUrl = "http://hashfaster.com/api/currencies"
+        	CoinsUrl = "http://hashfaster.com/api/currencies"
 		Coins = 
-        @{
-            "EDEN" = @{ Server = "hashfaster.com:20015"} 
-        }
+        	@{
+            		"EDEN" = @{ Server = "hashfaster.com:20015"} 
+        	}
     }
      "Bsod" =
     @{
@@ -48,11 +48,11 @@ $Pool_List =
 		Authless = $true
 		Regions = $false
 		ApiUrl = "http://api.bsod.pw/api/status"
-        CoinsUrl = "http://api.bsod.pw/api/currencies"
+       		CoinsUrl = "http://api.bsod.pw/api/currencies"
 		Coins = 
-        @{
-            "ADR" = @{ Server = "eu1.bsod.pw:2230"} 
-        }
+        	@{
+            		"ADR" = @{ Server = "eu1.bsod.pw:2230"} 
+        	}
     }
     "Gos" =
     @{
@@ -61,12 +61,12 @@ $Pool_List =
 		Authless = $true
 		Regions = $false
 		ApiUrl = "https://www.gos.cx/api/status"
-        CoinsUrl = "https://www.gos.cx/api/currencies"	
-        Coins =
+        	CoinsUrl = "https://www.gos.cx/api/currencies"	
+        	Coins =
 		@{
-            "ALPS" = @{ Server = "stratum.gos.cx:4555"}
-            "EXVO" = @{ Server = "stratum.gos.cx:4506"}
-            "ADR" = @{ Server = "stratum.gos.cx:8435"}
+            		"ALPS" = @{ Server = "stratum.gos.cx:4555"}
+            		"EXVO" = @{ Server = "stratum.gos.cx:4506"}
+           		"ADR" = @{ Server = "stratum.gos.cx:8435"}
 		}
     }
     "ThreeEyed" =
@@ -76,10 +76,10 @@ $Pool_List =
 		Authless = $false
 		Regions = $false
 		ApiUrl = "http://www.gos.cx/api/status"
-        CoinsUrl = "http://www.gos.cx/api/currencies"	
-        Coins =
+        	CoinsUrl = "http://www.gos.cx/api/currencies"	
+        	Coins =
 		@{
-            "RVN" = @{ Server = "stratum.threeeyed.info:3333"}
+            		"RVN" = @{ Server = "stratum.threeeyed.info:3333"}
 		}
     }
     "BlockCruncher" =
@@ -89,8 +89,8 @@ $Pool_List =
 		Authless = $true
 		Regions = $false
 		ApiUrl = "http://blockcruncher.com/api/status"
-        CoinsUrl = "http://blockcruncher.com/api/currencies"
-        Coins =	
+        	CoinsUrl = "http://blockcruncher.com/api/currencies"
+        	Coins =	
 		@{
 			"PGN" = @{ Server = "blockcruncher.com:3333"}
 		}
@@ -102,8 +102,8 @@ $Pool_List =
 		Authless = $true
 		Regions = $false
 		ApiUrl = "http://epicpool.net/api/status"
-        CoinsUrl = "http://epicpool.net/api/currencies"
-        Coins =	
+        	CoinsUrl = "http://epicpool.net/api/currencies"
+        	Coins =	
 		@{
 			"EXVO" = @{ Server = "epicpool.net:4544"}
 		}
